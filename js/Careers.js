@@ -1,6 +1,4 @@
-/* ============================================
-   CAREERS PAGE JAVASCRIPT
-   ============================================ */
+
 
 // Configuration
 const CONFIG = {
@@ -518,4 +516,5 @@ if (backToTop) {
             behavior: 'smooth'
         });
     });
+
 }
