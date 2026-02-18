@@ -220,50 +220,59 @@
     </div>
   </section>
  <!-- CLIENTS SECTION -->
+<!-- CLIENTS SECTION -->
 <section class="clients" id="clients">
 
   <!-- SECTION TITLE (same style as About / Team) -->
   <h1 class="heading">Our Clients</h1>
 
-  <!-- SUBTITLE -->
   <p class="clients-subtitle">
     Trusted by students, startups, and businesses across Kurdistan.
   </p>
 
-  <!-- CLIENTS GRID -->
-  <div class="clients-grid">
+  <div class="clients-slider-wrap">
+    <button class="clients-nav clients-prev" type="button" aria-label="Previous">
+      <i class="fas fa-chevron-left"></i>
+    </button>
 
-    <div class="client-card">
-      <img src="./images/clients/main logo_page-0001.jpg" alt="Padel House">
-      <h4>Padel House</h4>
-      <span>Website Menu & POS</span>
+    <div class="clients-slider" id="clientsSlider">
+      <div class="client-card">
+        <img src="./images/clients/main logo_page-0001.jpg" alt="Padel House">
+        <h4>Padel House</h4>
+        <span>Website Menu & POS</span>
+      </div>
+
+      <div class="client-card">
+        <img src="./images/clients/429981579_1605783693527776_1138870898777562055_n.jpg" alt="Coffee POS">
+        <h4>Coffee POS</h4>
+        <span>Point of Sale System</span>
+      </div>
+
+      <div class="client-card">
+        <img src="./images/clients/images (1).jpeg" alt="Orion Snooker Cafe">
+        <h4>Orion Snooker Cafe</h4>
+        <span>Point of Sale System</span>
+      </div>
+
+      <div class="client-card">
+        <img src="./images/clients/square.jpeg" alt="Bangeen Crystal">
+        <h4>Bangeen Crystal</h4>
+        <span>Point of Sale System</span>
+      </div>
+
+      <div class="client-card">
+        <img src="./images/clients/images.jpeg" alt="Essen Snooker">
+        <h4>Essen Snooker</h4>
+        <span>Logo Design & Social Media Management</span>
+      </div>
     </div>
 
-    <div class="client-card">
-      <img src="./images/clients/429981579_1605783693527776_1138870898777562055_n.jpg" alt="Coffee POS">
-      <h4>Coffee POS</h4>
-      <span>Point of Sale System</span>
-    </div>
-
-    <div class="client-card">
-      <img src="./images/clients/images (1).jpeg" alt="Orion Snooker Cafe">
-      <h4>Orion Snooker Cafe</h4>
-      <span>Point of Sale System</span>
-    </div>
-
-    <div class="client-card">
-      <img src="./images/clients/square.jpeg" alt="Bangeen Crystal">
-      <h4>Bangeen Crystal</h4>
-      <span>Point of Sale System</span>
-    </div>
-
-    <div class="client-card">
-      <img src="./images/clients/images.jpeg" alt="Essen Snooker">
-      <h4>Essen Snooker</h4>
-      <span>Logo Design & Social Media Management</span>
-    </div>
-
+    <button class="clients-nav clients-next" type="button" aria-label="Next">
+      <i class="fas fa-chevron-right"></i>
+    </button>
   </div>
+
+  <div class="clients-dots" id="clientsDots" aria-label="Client slider dots"></div>
 </section>
   <!-- SERVICES SECTION -->
   <div class="services-section">
@@ -745,4 +754,5 @@
 </body>
 
 </html>
+
 
